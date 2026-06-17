@@ -3,13 +3,13 @@ operator = input("Enter Operator (+ - * /)")
 num2 = float(input("Enter Second Number"))
 
 if operator == "+":
-print("=", num1 + num2)
+print("Answer: ", num1 + num2)
 
 elif operator == "-":
-print("=", num1 - num2)
+print("Answer: ", num1 - num2)
 
 elif operator == "*":
-print("=", num1 * num2)
+print("Answer: ", num1 * num2)
 
 elif operator == "/":
 if num2 != 0:
